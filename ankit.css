@@ -1,0 +1,16 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.Head-image{
+    height: 500px;
+    width: 500px;
+    object-position: center;
+    border-radius: 50%;
+}
+header{
+    background-color: red;
+}
+@keyframes{
+    fr
+}
