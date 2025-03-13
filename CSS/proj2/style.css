@@ -1,0 +1,106 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    
+}
+#left{
+    padding: 90px;
+    height: 100%;
+    width: 40%;
+    background-color:white;
+}
+#right{
+    margin-top: 10%;
+    height: 83%;
+    width: 35%;
+    background-color:white;
+    padding:10px;
+   position: relative;
+
+}
+#left h5{
+    padding:  50px 20px;
+   font-size: 70px;
+}
+#bottom{
+    height:20px;
+    width: 20px;
+    padding: 10px 15px;
+    border-color: black ;
+    display: flex;
+    
+}
+#colors{
+    padding: 3%;
+    margin-top: 30%;
+    height: 30px;
+    width:fit-content;
+    border: 2.2px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+#colors h4{
+    margin-top:1%   ;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#circle1{
+    
+    height: 10px;
+    width: 10px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#circle2{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+}
+
+#bottom-left h2{
+    
+    font-size: 17px;
+    margin-bottom: 18px;
+
+}
+#bottom-left p{
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+}
+#right-top {
+    
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+#right-top h5 i{
+    color: gold;
+}
+#right img{
+    padding: 2px;
+   height: 90%;
+   width: 90%;
+    align-items: center;
+}
